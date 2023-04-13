@@ -178,7 +178,7 @@ width: 100%;
 /* Start Landing Section */
 
 .landing {
-  background-image: url(/image/62012b4f42360433d6593e42.png);
+  background-image: url(../62012b4f42360433d6593e42.png);
   background-size: cover;
   height: calc(100vh - 64px);
   position: relative;
