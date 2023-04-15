@@ -89,6 +89,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 .header .logo{
   width: 120px;
@@ -211,6 +212,7 @@ line-height: 1.8;
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   background-color:  var(--section-background);
+  background-color: #282A35;
 }
 
 .features .container { 
@@ -241,6 +243,8 @@ line-height: 1.8;
 .services {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
+  background-color: #D9EEE1;
+  margin-top: -5px;
 }
 
 .services .services-content {
