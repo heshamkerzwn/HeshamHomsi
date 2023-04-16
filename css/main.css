@@ -327,10 +327,19 @@ line-height: 1.8;
   margin-top: 80px;
 }
 @media(max-width: 767px){
+  .portfolio .portfolio-content {
+    grid-template-columns: repeat(auto-fill, minmax(140px,1fr));
+  }
   .portfolio .portfolio-content .card{
     text-align: center;
+    width: 140px;
+    
+  }
+  .portfolio .portfolio-content .card .info p{
+    font-size: small;
   }
 }
+
 
 .portfolio .portfolio-content .card{
   background-color: white;
@@ -347,10 +356,9 @@ line-height: 1.8;
   color: #777;
   line-height: 1.8;
   margin-bottom: 0;
-}
-.portfolio .portfolio-content .card .info{
   padding: 20px;
 }
+
 /* End portfolio */
 /* Start About */
 .about{
