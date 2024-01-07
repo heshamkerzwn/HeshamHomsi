@@ -191,14 +191,16 @@ width: 100%;
 
 .header .links ul{
   list-style: none;
-  margin: 0;
+  margin-top: 40px;
   padding: 0;
   right: 0;
   background-color: var(--section-background);
   min-width: 200px;
   top: calc(100% + 15px);
   position: absolute;
-  display: none;
+  opacity: 0;
+  /* display: none; */
+  transition: opacity 0.3s ease-in-out , margin-top 0.3s ease-in-out ;
 }
 
 .header .links ul::before {
@@ -212,7 +214,8 @@ width: 100%;
 }
 
 .header .links:hover ul {
-  display: block;
+  /* display: block; */
+  opacity: 1;
   z-index: 1;
 }
 
