@@ -199,7 +199,6 @@ width: 100%;
   top: calc(100% + 15px);
   position: absolute;
   opacity: 0;
-  /* display: none; */
   transition: opacity 0.3s ease-in-out , margin-top 0.3s ease-in-out ;
 }
 
@@ -214,7 +213,6 @@ width: 100%;
 }
 
 .header .links:hover ul {
-  /* display: block; */
   opacity: 1;
   z-index: 1;
 }
